@@ -1,0 +1,10 @@
+# Disallow everything
+User-agent: *
+Disallow: /
+
+# Except search bots
+User-agent: Googlebot
+User-agent: bingbot
+User-agent: Slurp
+User-agent: msnbot
+Allow: /
