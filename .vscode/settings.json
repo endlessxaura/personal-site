@@ -1,0 +1,5 @@
+{
+  "workbench.editor.customLabels.patterns": {
+    "**/app/**/*.ts[x?]": "${dirname(1)}/${dirname} - ${filename}.${extname}"
+  }
+}
