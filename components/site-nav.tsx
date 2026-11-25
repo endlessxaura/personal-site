@@ -7,6 +7,7 @@ import NavbarBrand from 'react-bootstrap/NavbarBrand';
 import NavbarToggle from 'react-bootstrap/NavbarToggle';
 import NavLink from 'react-bootstrap/NavLink';
 import { usePathname } from 'next/navigation';
+import { lunasima } from '@/styles/fonts';
 
 function SiteNavLink({ href, children }: { href: string; children: React.ReactNode }) {
     const pathName = usePathname();
@@ -21,7 +22,7 @@ export default function SiteNav() {
     return (
         <Navbar expand="lg">
             <Container>
-                <NavbarBrand className="text-primary" href="/">
+                <NavbarBrand className={lunasima.className + " text-primary"} href="/">
                     Julia Norman
                 </NavbarBrand>
                 <NavbarToggle aria-controls="basic-navbar-nav" />

@@ -24,7 +24,7 @@
     ],
     "paths": {
       "@/styles/*": [
-        "/styles/*"
+        "./styles/*"
       ]
     },
     "strictNullChecks": true
