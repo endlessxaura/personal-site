@@ -1,20 +1,23 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import styles from './app.module.css';
+import '@/styles/theme.scss';
+import { Lunasima } from 'next/font/google';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import NavbarBrand from 'react-bootstrap/NavbarBrand';
 
+const lunasima = Lunasima({
+    weight: '400',
+});
 
 
 export default function Layout({ children }: { children: React.ReactNode }) {
     return (
         <html lang="en">
-            <body>
-                <Navbar expand="lg" className="bg-body-tertiary">
+            <body className={lunasima.className}>
+                <Navbar expand="lg">
                     <Container>
-                        <NavbarBrand href="/">
-                            <img className={styles.logo} src="favicon.ico" alt="Logo"></img>
+                        <NavbarBrand className="text-primary" href="/">
+                            Julia Norman
                         </NavbarBrand>
                     </Container>
                 </Navbar>
