@@ -15,15 +15,9 @@ export default async function ProjectPage({ params }: { params: Promise<{ title:
                 <Col className="d-flex flex-column">
                     <img src={"/" + project.img} className="align-self-center py-3" style={{"width": "100%", "maxWidth": "768px", "objectFit": "contain"}}></img>
                     <h1>{project.title}</h1>
-                    {project.body}
+                    {project.body ?? project.description}
                 </Col>
             </Row>
-            {/* <Row>
-                <h1>{project.title}</h1>
-            </Row>
-            <Row>
-                <div dangerouslySetInnerHTML={{__html: project.body}}></div>
-            </Row> */}
         </Container>
     )
 }
