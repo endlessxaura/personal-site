@@ -2,7 +2,7 @@ import { Container, Row, Col, Card, CardImg, CardBody, CardTitle, CardText } fro
 import { projects } from '../../data/projects.json';
 import Project from '../../data/project';
 
-export function ProjectCard({ project, children }: { project: Project, children?: React.ReactNode }) {
+export function ProjectCard({ project }: { project: Project }) {
     return (
         <Card key={project.title} className="p-0" style={{"width": "384px", "maxWidth": "100%"}}>
             <CardImg variant="top" src={project.img} />
