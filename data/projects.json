@@ -1,0 +1,22 @@
+{
+    "projects": [
+        {
+            "img": "LIM_Cube_Driver.png",
+            "title": "Line Item Modeling",
+            "description": "Myself and two other developers created Line Item Modeling, previously known as People Planning. I personally refactored <a href=\"https://documentation.onestream.com/docs/Content/LIM/Formula%20Wizard.html\" target=\"_blank\" rel=\"noopener noreferrer\">the Formula Wizard</a> and built the <a href=\"https://documentation.onestream.com/docs/Content/LIM/Cube%20Drivers.html\" target=\"_blank\" rel=\"noopener noreferrer\">Cube Drivers</a> (depicted above). This project was a OneStream workspace with custom business rules written in .NET 8.",
+            "body": ""
+        },
+        {
+            "img": "MA_Distribution_Map.png",
+            "title": "Massachusetts Distribution Map",
+            "description": "This map shows the electrical distribution grid in Massachusetts. I built this using ArcGIS, Python, Azure Functions, and Snowflake. An accompanying data explorer website was built using React and .NET. It's still hosted at <a href=\"https://systemdataportal.nationalgrid.com/MA/\" target=\"_blank\" rel=\"noopener noreferrer\">the National Grid Massachusetts System Data Portal</a> under Distribution Assets Overview.",
+            "body": ""
+        },
+        {
+            "img": "Personal_Website_Screenshot.png",
+            "title": "This website!",
+            "description": "I built my personal website using Next.js and Typescript. It's hosted on Azure Static Web Apps via a Docker container. You can explore the code at <a href=\"https://github.com/endlessxaura/personal-site\" target=\"_blank\" rel=\"noopener noreferrer\">it's GitHub repository</a>.",
+            "body": ""
+        }
+    ]
+}
