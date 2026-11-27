@@ -1,5 +1,6 @@
 import React from 'react';
 import '@/styles/theme.scss';
+import '@fortawesome/fontawesome-svg-core/styles.css';
 import SiteNav from '../components/site-nav';
 
 export default function Layout({ children }: { children: React.ReactNode }) {
