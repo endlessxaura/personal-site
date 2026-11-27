@@ -5,6 +5,7 @@ import { lunasima } from '@/styles/fonts';
 import { Container } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import LinkedInIcon from '../components/linked-in-icon';
 
 export default function Page() {
     return (
@@ -17,9 +18,7 @@ export default function Page() {
                         <a href="https://github.com/endlessxaura" className="text-dark" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faGithub} />
                         </a>
-                        <a href="https://www.linkedin.com/in/jnorman-swe" className="text-dark" target="_blank" rel="noopener noreferrer">
-                            <FontAwesomeIcon icon={faLinkedin} />
-                        </a>
+                        <LinkedInIcon profileSlug="jnorman-swe" className="text-dark" />
                     </div>
                     <p>
                         I take abstract problems and turn them into simple, reasonable solutions. Technology is just the tool we use to get there. Whether I'm generating feature layers in ArcGIS, creating API endpoints in .NET, or deploying a new web page in React, the underlying principles are the same. I focus on the fundamentals: clean code, design patterns, and reliable architecture.
