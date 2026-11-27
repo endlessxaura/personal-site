@@ -15,10 +15,10 @@ export default function Page() {
                     <h1 className={lunasima.className}>The Coder Philosopher</h1>
                     <div className="d-flex justify-content-center pb-2" style={{ "gap": "1rem" }}>
                         <a href="https://github.com/endlessxaura" className="text-dark" target="_blank" rel="noopener noreferrer">
-                            <FontAwesomeIcon width={16} height={16} icon={faGithub} />
+                            <FontAwesomeIcon icon={faGithub} />
                         </a>
                         <a href="https://www.linkedin.com/in/jnorman-swe" className="text-dark" target="_blank" rel="noopener noreferrer">
-                            <FontAwesomeIcon width={16} height={16} icon={faLinkedin} />
+                            <FontAwesomeIcon icon={faLinkedin} />
                         </a>
                     </div>
                     <p>
